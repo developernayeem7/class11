@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.website{
+    width: 1024px;
+    margin: 0 auto;
+}
+/*menu*/
+.menu1{
+    text-align: center;
+    background-color:darkslategrey;
+    padding: 60px;
+    }
+
+.menu1 ul{
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+.menu1 ul li{
+    display: inline-block;
+    margin: 6px;
+}
+.head1 {
+    display: inline-block;
+    height: 46px;
+    width: 10px;
+    background-color: rgb(16, 77, 130);
+    position: relative;
+    top: 60px;
+    right: 30px;
+    padding-top: 5px;
+
+}
+.head2 {
+    position: relative;
+    top: 75px;
+    right: 45px;
+    font-size: 23px;
+    color: rgb(244, 168, 4);
+}
+.menu1 ul li a{
+    color: black;
+    text-decoration: none;
+    background-color: rgb(237, 169, 11);
+    padding: 6px; 
+}
+/*service*/
+.services{
+    text-align: center;
+    width: 1024px;
+    margin: auto;
+    color: darkgreen;
+   background-color: aliceblue;
+    padding-bottom: 60px;
+    padding-top: 10px;
+}
+h1{
+    text-align: center;
+    border-bottom: 5px dashed ;
+    font-size: 40px;
+}
+
+.icon1{
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+ padding: 20px;
+ position: relative;
+ right: 100px;
+ top: 20px;
+ border: 1px solid black;
+ border-radius: 10px;
+ box-shadow: 2px 3px 3px 2px black;
+ transition: .5s;
+}
+.icon1:hover{
+    color: brown;
+    background-color: darkgreen;
+   
+}
+.icon2{
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    padding: 35px;
+    
+    position: relative;
+   left:  170;
+   top: 10px;
+   border: 1px solid black;
+   border-radius: 10px;
+   box-shadow: 2px 3px 3px 2px black;
+}
+.icon2:hover{
+    color: brown;
+    background-color: darkgreen;
+}
+.icon3{
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    padding: 35px;
+    position: relative;
+    left: 100px;
+    top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.icon3:hover{
+    color: brown;
+    background-color: darkgreen;
+}
+.siz1{
+    font-size: 40px;
+}
+/*rounded*/
+.cercall{
+   background-color: darkorchid;
+    width: 1024px;
+    margin: auto;
+    padding-bottom: 40px;
+    text-align: center;
+    
+    }
+    .round1{
+    height: 70px;
+    width: 70px;
+    background-color:darkslategrey;
+    border-radius: 50%;
+    border: 3px dashed rgb(229, 143, 6);
+    display: inline-block;
+    position: relative;
+    top: 70px;
+    right: 70px;
+
+    }
+    .round2{
+        height: 70px;
+        width: 70px;
+        background-color: darkslategrey;
+        border-radius: 50%;
+        border: 3px dashed rgb(229, 143, 6);
+        display: inline-block;
+        position: relative;
+        top: 10px;
+        right: 40px;
+        }
+        .round3{
+            height: 70px;
+            width: 70px;
+            background-color: darkslategrey;
+            border-radius: 50%;
+            border: 3px dashed rgb(229, 143, 6);
+            display: inline-block;
+            position: relative;
+            left: 40px;
+            top: 10px;
+
+            }  
+        .round4{
+            height: 70px;
+            width: 70px;
+            background-color: darkslategrey;
+            border-radius: 50%;
+            border: 3px dashed rgb(229, 143, 6);
+            display: inline-block;
+            position: relative;
+            top: 70px;
+            left: 70px;
+            }     
+            img{
+                height: 70px;
+                width: 70px;
+                
+                border-radius: 50%;
+                border: 3px solid rgb(229, 143, 6);
+                display: inline-block;
+                position: relative;
+                bottom: 30px;
+                }
+                img:hover{
+                  background-color: aqua;
+
+                }
+                /*form*/
+                .name{
+                    padding: 5px;
+                    position: relative;
+                    bottom: 15px;
+                    border-radius: 10px;
+                }
+                .email{
+                    padding: 5px;
+                    position: relative;
+                    bottom: 5px;
+                    border-radius: 10px;
+                }
+                .boton{
+                    padding: 8px;
+                    border-radius: 20px;
+                    background-color:rgb(143, 16, 206);
+                    color: aliceblue;
+                    position: relative;
+                    top: 3px;
+                    transition: .5s;
+                }
+                .boton:hover{
+                    color: aqua;
+                    background-color: brown;
+                    font-size: 20px;
+                }
+                /*footer*/
+                .footer{
+                    background-color: darkslategrey;
+                    color: aliceblue;
+                    text-align: center;
+                    padding: 15px;
+                }
